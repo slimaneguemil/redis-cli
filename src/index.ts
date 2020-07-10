@@ -26,7 +26,7 @@ const cli: RedisGUIArguments = version(versionNumber)
 	.options({
 		"h": {
 			alias: "host",
-			default: "127.0.0.1",
+			default: "redis-test.fy54tg.0001.euc1.cache.amazonaws.com",
 			describe: 'Server hostname (default: 127.0.0.1).',
 			type: 'string'
 		},
